@@ -205,7 +205,6 @@ p:hover {
   color: var(--main-color);
   cursor: pointer;
   transition: all 150ms ease-in-out;
-  box-shadow: var(--box-shadow);
 }
 .order {
   display: block;
@@ -223,8 +222,6 @@ p:hover {
   transition: all 150ms ease-in-out;
 }
 .order:hover {
-  color: azure;
-  background: rgba(111, 0, 255, 0.7);
   cursor: pointer;
   box-shadow: var(--box-shadow);
 }
@@ -244,4 +241,17 @@ p:hover {
   font-weight: 900;
   font-family: var(--major-font);
   text-shadow: var(--tex-shadow) var(--secondary-color);
+}
+.gitHub {
+  font-family: var(--secondary-font);
+  font-size: 30px;
+  color: var(--secondary-color);
+  opacity: 0.75;
+  text-decoration: none;
+  text-shadow: var(--tex-shadow) var(--main-color);
+}
+.gitHub:hover {
+  color: var(--main-color);
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
 }
