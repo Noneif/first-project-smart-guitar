@@ -225,22 +225,17 @@ p:hover {
   cursor: pointer;
   box-shadow: var(--box-shadow);
 }
-.author {
+footer {
   line-height: 22px;
-  font-family: var(--secondary-font);
+  font-family: var(--major-font);
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 900;
   color: var(--main-color);
   opacity: 0.7;
   background: none;
   text-align: center;
-  text-shadow: var(--tex-shadow) azure;
-  margin-top: 50px;
-}
-.NoName {
-  font-weight: 900;
-  font-family: var(--major-font);
   text-shadow: var(--tex-shadow) var(--secondary-color);
+  margin-top: 50px;
 }
 .gitHub {
   font-family: var(--secondary-font);
@@ -249,6 +244,7 @@ p:hover {
   opacity: 0.75;
   text-decoration: none;
   text-shadow: var(--tex-shadow) var(--main-color);
+  margin-left: 5px;
 }
 .gitHub:hover {
   color: var(--main-color);
